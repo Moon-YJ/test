@@ -1,0 +1,28 @@
+@import 'reset';
+
+.box {
+	width: 400px;
+	height: 400px;
+	background-color: gray;
+	margin: 100px auto;
+	position: relative;
+	padding: 30px;
+
+	.btns {
+		display: flex;
+		gap: 10px;
+
+		li {
+			padding: 8px 20px;
+			background-color: #333;
+			font: bold 1rem/1 'arial';
+			color: #888;
+			cursor: pointer;
+
+			&.on {
+				background-color: #fff;
+				color: #111;
+			}
+		}
+	}
+}

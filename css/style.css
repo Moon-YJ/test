@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+html {
+  font-size: 16px;
+}
+
+.box {
+  width: 400px;
+  height: 400px;
+  background-color: gray;
+  margin: 100px auto;
+  position: relative;
+  padding: 30px;
+}
+.box .btns {
+  display: flex;
+  gap: 10px;
+}
+.box .btns li {
+  padding: 8px 20px;
+  background-color: #333;
+  font: bold 1rem/1 "arial";
+  color: #888;
+  cursor: pointer;
+}
+.box .btns li.on {
+  background-color: #fff;
+  color: #111;
+}
+
+/*# sourceMappingURL=style.css.map */
